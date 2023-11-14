@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  background: #f2f1f4;
+  color: #000000;
+}
+
+.description {
+  display: none;
+  padding-left: 15px;
+}
+
+.title {
+  height: 40px;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.active + .description {
+  display: block;
+}
+
+.even {
+  background-color: rgb(215, 214, 214);
+  transition: 0.3s;
+}
+
+.even:hover, .active.even {
+  background-color: rgb(191, 189, 189);
+  cursor: pointer;
+}
+
+.odd {
+  background-color: rgb(160, 160, 160);
+  transition: 0.3s;
+}
+
+.odd:hover, .active.odd {
+  background-color: rgb(130, 130, 130);
+  cursor: pointer;
+}
+
+.odd:after, .even:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  float: left;
+  margin-right: 15px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+

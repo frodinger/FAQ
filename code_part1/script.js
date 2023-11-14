@@ -3,16 +3,6 @@
 function toggle(e) {
   const element = e.target;
   element.classList.toggle("active");
-
-  /* 
-  Toggle between hiding and showing the active description
-  const description = element.nextElementSibling;
-  if (description.style.display === "block") {
-    description.style.display = "none";
-  } else {
-    description.style.display = "block";
-  }
-  */
 }
 
 // Selects and HTML element, and calls a function which will be executed when the element is clicked.
