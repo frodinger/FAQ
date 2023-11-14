@@ -39,7 +39,7 @@ html {
 }
 
 .odd:hover, .active.odd {
-  background-color: rgb(252, 224, 115);
+  background-color: rgb(255, 226, 110);
   cursor: pointer;
 }
 
