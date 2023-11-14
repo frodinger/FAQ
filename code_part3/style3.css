@@ -3,7 +3,7 @@ body {
 }
 
 html {
-  background: #f2f1f4;
+  background: #fefefe;
   color: #000000;
 }
 
@@ -24,22 +24,22 @@ html {
 }
 
 .even {
-  background-color: rgb(236, 240, 255);
+  background-color: rgb(223, 223, 223);
   transition: 0.3s;
 }
 
 .even:hover, .active.even {
-  background-color: rgb(160, 173, 219);
+  background-color: rgb(199, 198, 198);
   cursor: pointer;
 }
 
 .odd {
-  background-color: rgb(220, 232, 250);
+  background-color: rgb(255, 244, 198);
   transition: 0.3s;
 }
 
 .odd:hover, .active.odd {
-  background-color: rgb(177, 199, 232);
+  background-color: rgb(252, 224, 115);
   cursor: pointer;
 }
 
