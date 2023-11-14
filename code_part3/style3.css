@@ -24,22 +24,22 @@ html {
 }
 
 .even {
-  background-color: rgb(215, 214, 214);
+  background-color: rgb(236, 240, 255);
   transition: 0.3s;
 }
 
 .even:hover, .active.even {
-  background-color: rgb(191, 189, 189);
+  background-color: rgb(160, 173, 219);
   cursor: pointer;
 }
 
 .odd {
-  background-color: rgb(160, 160, 160);
+  background-color: rgb(220, 232, 250);
   transition: 0.3s;
 }
 
 .odd:hover, .active.odd {
-  background-color: rgb(130, 130, 130);
+  background-color: rgb(177, 199, 232);
   cursor: pointer;
 }
 
